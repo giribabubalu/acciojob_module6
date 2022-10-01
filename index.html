@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form class="row g-3">
+
+        <div class="col-3">
+            <label for="fname" class="form-label">First name</label>
+            <input type="text" class="form-control" id="fname" >
+            <span style="color: red;" id="fname-span">please enter a valid first name</span>
+        </div>
+
+        <div class="col-3">
+            <label for="lname" class="form-label">Last name</label>
+            <input type="text" class="form-control" id="lname" >
+            <span style="color: red;" id="lname-span">please enter a valid last name</span>
+        </div>
+
+
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="text" class="form-control" id="inputEmail4">
+          <span style="color: red;" id="email-span">please enter a valid email</span>
+        </div>
+
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="text" class="form-control" id="inputPassword4">
+          <span style="color: red;" id="password-span">please enter a valid password</span>
+        </div>
+
+        <div class="col-md-6">
+            <label for="confirmPassword" class="form-label">Confirm Password</label>
+            <input type="text" class="form-control" id="confirmPassword">
+            <span style="color: red;" id="confirm-span">password and comfirm password don't match</span>
+        </div>
+       
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Accept terms and conditions
+            </label><br>
+            <span style="color: red;" id="check-span">you must agree before submitting</span>
+          </div>
+        </div>
+        <center>
+            <div class="col-4">
+                <button type="button" class="btn btn-dark" onclick="testing()">Submit form</button>
+            </div>
+        </center>
+      </form>
+      <script src="index.js"></script>
+</body>
+</html>

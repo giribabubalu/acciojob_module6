@@ -1,0 +1,30 @@
+
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+form{
+    background-color: rgba(0,0,0,0.1);
+}
+button{
+    margin: auto;
+}
+#fname-span{
+    visibility: hidden;
+}
+#lname-span{
+    visibility: hidden;
+}
+#email-span{
+    visibility: hidden;
+}
+#password-span{
+    visibility: hidden;
+}
+#confirm-span{
+    visibility: hidden;
+}
+#check-span{
+    visibility: hidden;
+}
